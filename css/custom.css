@@ -1,0 +1,18 @@
+:root {
+  --pico-border-radius: 1rem;
+  --pico-form-element-spacing-vertical: 1rem;
+  --pico-form-element-spacing-horizontal: 1.25rem;
+  --pico-font-family-sans-serif: "Roboto Slab", sans-serif, var(--pico-font-family-emoji);
+  --pico-font-weight: 200;
+}
+h2 {
+  --pico-font-size: 1.2rem;
+  --pico-typography-spacing-vertical: 0rem;
+}
+img {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+header nav li a svg {
+  width: 0.8rem;
+}
