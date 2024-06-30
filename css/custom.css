@@ -1,5 +1,4 @@
 :root {
-  --pico-border-radius: 1rem;
   --pico-form-element-spacing-vertical: 1rem;
   --pico-form-element-spacing-horizontal: 1.25rem;
   --pico-font-family-sans-serif: "Roboto Slab", sans-serif, var(--pico-font-family-emoji);
@@ -13,6 +12,26 @@ img {
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
+article {
+  --pico-border-radius: 1rem;
+}
+/* ul {
+  list-style-type: circle;
+  list-style-position: inside;
+} */
+p {
+  text-align: justify;
+}
 header nav li a svg {
   width: 0.8rem;
+}
+.button {
+  border: 1px solid var(--pico-primary);
+  border-radius: 0.5rem;
+  text-decoration-line: none;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.7rem;
+}
+.button:hover {
+  border-color: var(--pico-primary-hover);
 }
